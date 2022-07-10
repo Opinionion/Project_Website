@@ -11,12 +11,11 @@ used programming languages:
 - html
 - css
 - python 3.10
-
-
+To launch project need python 3.10
 
 In command line write this 2 to run virtual machine and to start server
 
-virtual space:
+virtual environment:
 > cd (project path)\Project\Scripts
 >
 >  activate
