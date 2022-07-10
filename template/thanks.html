@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block thanks %}
+	<!-- Thanks! -->
+  	<section>
+		{% if name %}
+  		<div class="container">
+  			<CENTER style = ''><h1> {{ name }}, Thanks for request!</h1></CENTER>
+  		</div>
+		{% else %}
+		<div class="container">
+  			<CENTER style = ''><h1>Thanks page!</h1></CENTER>
+  		</div>
+		{% endif %}
+  	</section>
+  	<!-- Thanks! -->
+{% endblock %}
